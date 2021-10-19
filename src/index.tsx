@@ -5,8 +5,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppMint from './AppMint';
-const domContainer1 = document.querySelector('#app');
-ReactDOM.render(<App></App>, domContainer1);
+
 const domContainer2 = document.querySelector('#appp');
 ReactDOM.render(<App></App>, domContainer2);
 const domContainer = document.querySelector('#appMint');
