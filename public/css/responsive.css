@@ -1,0 +1,700 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+.ort-part p {
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.dnpaiv-left p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 30.52px;
+}
+
+
+.paiv-left p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 30.52px;
+}
+
+.main-area {
+    padding-bottom: 441px;
+    overflow: hidden;
+}
+
+
+
+.paiv-left_a2 a {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 500;
+    background: #F2F2F2;
+    border-radius: 30px;
+    padding: 11px 27px;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 80%);
+    margin-left: 15px;
+}
+
+.vsn-part_a1 {
+    position: absolute;
+    margin-top: -269px;
+    margin-left: -25px;
+}
+
+.vsn-part_a2 {
+    position: absolute;
+    margin-top: -344px;
+    padding-left: 164px;
+}
+
+.vsn-part_a3 {
+    position: absolute;
+    top: 199px;
+    right: 369px;
+}
+
+.vsn-part_a4 {
+    position: absolute;
+    right: 167px;
+    top: 129px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+.mobileheader-area {
+    display: block;
+    padding-top: 0;
+}
+
+.navbar-brand img {
+    height: 54px;
+}
+
+.main-menu-part ul {
+    padding-top: 20px;
+}
+
+.main-menu-part ul li {
+    float: none;
+    border-bottom: 1px solid #fff;
+}
+
+.main-menu-part ul li a {
+    color: #fff;
+    padding: 21px 0px 12px 5px;
+}
+
+.header-area {
+    padding: 20px 0;
+    display: none;
+}
+
+.items_a1 {
+    display: none;
+}
+
+.items_a2 {
+    display: block;
+}
+
+
+.main-area {
+    padding: 0px 0;
+    padding-bottom: 406px;
+    overflow: hidden;
+}
+
+.paiv-left h1 {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 11px;
+    padding-top: 40px;
+}
+
+.paiv-left p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 30.52px;
+}
+
+
+.paiv-left_a2 a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    background: #F2F2F2;
+    border-radius: 30px;
+    padding: 9px 19px;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 80%);
+}
+
+.paiv-left_a2 {
+    margin-left: 19px;
+}
+
+
+
+.dnpaiv-left p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 30.52px;
+}
+
+
+.ort-part p {
+    color: #FFFFFF;
+    font-size: 19px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.ort-part h3 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.faq-part-a1 h2 {
+    color: #000000BF;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.faq-part-a1 p {
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+}
+
+.ziehharmonika > div {
+    display: none;
+    background: #fff;
+    border-radius: 4px;
+    text-align: left;
+    color: #000000;
+    padding: 7px 15px;
+    font-size: 16px;
+}
+
+.footer-part p {
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+}
+
+
+.vsn-part {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 35px;
+    position: relative;
+    border-radius: 35px 35px 0px 0px;
+    overflow: hidden;
+}
+
+
+.vsn-part_a1 {
+    position: absolute;
+    margin-top: -209px;
+    margin-left: -14px;
+}
+
+
+
+
+.vsn-part_a1 h6 {
+    font-size: 11px;
+}
+
+
+.vsn-part_a2 h6 {
+    font-size: 11px;
+}
+
+.vsn-part_a3 h6 {
+    font-size: 11px;
+}
+
+.vsn-part_a4 h6 {
+    font-size: 11px;
+}
+
+.vsn-part_a1 p {
+    color: #888888;
+    font-size: 7px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 11px;
+}
+
+
+
+.vsn-part_a2 p {
+    color: #888888;
+    font-size: 7px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 11px;
+}
+
+
+
+.vsn-part_a3 p {
+    color: #888888;
+    font-size: 7px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 11px;
+}
+
+
+
+.vsn-part_a4 p {
+    color: #888888;
+    font-size: 7px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 11px;
+}
+
+.vsn-part_a3 {
+    position: absolute;
+    top: 171px;
+    right: 276px;
+}
+
+.vsn-part_a2 {
+    position: absolute;
+    margin-top: -266px;
+    padding-left: 139px;
+}
+
+.vsn-part_a4 {
+    position: absolute;
+    right: 120px;
+    top: 118px;
+}
+
+.ziehharmonika h3 {
+    color: #000000;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 4px;
+    padding: 10px 12px;
+    cursor: pointer;
+    margin-top: 0;
+    font-weight: 700;
+    margin-bottom: 2px;
+    padding-right: 40px;
+    transition: 0.25s all;
+    position: relative;
+}
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+
+.mobileheader-area {
+    display: block;
+    padding-top: 0;
+}
+
+.navbar-brand img {
+    height: 54px;
+}
+
+.main-menu-part ul {
+    padding-top: 20px;
+}
+
+.main-menu-part ul li {
+    float: none;
+    border-bottom: 1px solid #fff;
+}
+
+.main-menu-part ul li a {
+    color: #fff;
+    padding: 21px 0px 12px 5px;
+}
+
+.header-area {
+    padding: 20px 0;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+.mobileheader-area {
+    display: block;
+    padding-top: 0;
+}
+
+.navbar-brand img {
+    height: 54px;
+}
+
+.main-menu-part ul {
+    padding-top: 20px;
+}
+
+.main-menu-part ul li {
+    float: none;
+    border-bottom: 1px solid #fff;
+}
+
+.main-menu-part ul li a {
+	color: #fff;
+    padding: 21px 0px 12px 5px;
+}
+
+.header-area {
+    padding: 20px 0;
+    display: none;
+}
+
+
+
+
+
+.main-area {
+    padding: 0px 0;
+    padding-bottom: 185px;
+}
+
+.paiv-area {
+    padding: 30px 0;
+}
+
+
+
+.paiv-left h1 {
+    color: #000000;
+    font-size: 23px;
+    font-weight: 700;
+    padding-bottom: 6px;
+    padding-top: 14px;
+}
+
+
+.items_a1 {
+    display: none;
+}
+
+.items_a2 {
+    display: block;
+}
+
+
+.paiv-left_a2 {
+    padding-top: 31px;
+    margin-bottom: 43px;
+}
+
+.ort-part h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+
+.ort-part p {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.footer-part p {
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.ort-area {
+    background-color: #1E302D;
+    padding: 30px 0;
+}
+
+.faq-part {
+    background-color: #fff;
+    padding: 15px 5px;
+    position: relative;
+    border-radius: 0px 0px 35px 35px;
+}
+
+
+
+.ziehharmonika > div {
+    display: none;
+    background: #fff;
+    border-radius: 4px;
+    text-align: left;
+    color: #000000;
+    padding: 7px 22px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+.paiv-left p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 30.52px;
+    text-align: justify;
+}
+
+
+.dnpaiv-left p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 30.52px;
+    text-align: justify;
+}
+
+.vsn-part {
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 35px;
+    position: relative;
+    border-radius: 35px 35px 0px 0px;
+    text-align: center;
+}
+.vsn-part h3 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    top: 22px;
+}
+
+.dnvsn-area {
+    background-color: #fff;
+    padding: 24px 0;
+}
+
+
+.vsn-part_a1 h6 {
+    font-size: 20px;
+}
+
+.vsn-part_a1 p {
+    color: #888888;
+    font-size: 15px;
+    margin: 0;
+    line-height: 19px;
+}
+
+.vsn-part_a2 h6 {
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    padding-top: 22px;
+}
+
+.vsn-part_a2 {
+    position: initial;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.vsn-part_a2 p {
+    color: #888888;
+    font-size: 15px;
+    margin: 0;
+    line-height: 24px;
+    padding-bottom: 7px;
+}
+
+.vsn-part_a3 h6 {
+    font-family: 'Lora', serif;
+    background-image: linear-gradient( 
+0deg, #15e499 35%, #056945 60%);
+    color: #0000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 21px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.vsn-part_a1 {
+    position: initial;
+    margin-top: 0px;
+}
+
+.vsn-part_a3 {
+    position: initial;
+    top: 226px;
+    right: 435px;
+}
+
+
+
+.vsn-part_a4 {
+    position: initial;
+    right: 199px;
+    top: 149px;
+}
+
+.vsn-part_a4 {
+    position: inherit;
+    right: 199px;
+    top: 149px;
+}
+
+.vsn-part_a3 p {
+    color: #888888;
+    font-size: 16px;
+    margin: 0;
+    line-height: 23px;
+}
+
+
+
+.faq-part-a1 {
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 80%);
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    padding: 20px 10px;
+    width: 94%;
+    margin-bottom: 30px;
+}
+.faq-part-a1 h2 {
+    color: #000000BF;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.faq-part-a1 p {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.vsn-part_a4 {
+    position: initial;
+    right: 0px;
+    top: 0px;
+    padding-top: 10px;
+}
+
+.vsn-part_a4 h6 {
+    font-family: 'Lora', serif;
+    background-image: linear-gradient( 
+0deg, #cb4016 35%, #611905 60%);
+    color: #0000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 21px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.vsn-part_a4 p {
+    color: #888888;
+    font-size: 16px;
+    margin: 0;
+    line-height: 24px;
+}
+
+.vsn-part img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 17px;
+}
+
+.ziehharmonika h3 {
+    color: #000000;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 4px;
+    padding: 10px 12px;
+    cursor: pointer;
+    margin-top: 0;
+    font-weight: 700;
+    margin-bottom: 2px;
+    padding-right: 40px;
+    transition: 0.25s all;
+    position: relative;
+}
+
+
+
+
+
+
+
+}
