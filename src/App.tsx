@@ -43,30 +43,6 @@ const startDateSeed = parseInt(process.env.REACT_APP_CANDY_START_DATE!, 10);
 
 const txTimeout = 30000; // milliseconds (confirm this works for your project)
 
-const theme = createTheme({
-    palette: {
-        type: 'dark',
-    },
-    overrides: {
-        MuiButtonBase: {
-            root: {
-                justifyContent: 'flex-start',
-            },
-        },
-        MuiButton: {
-            root: {
-                textTransform: undefined,
-                padding: '12px 16px',
-            },
-            startIcon: {
-                marginRight: 8,
-            },
-            endIcon: {
-                marginLeft: 8,
-            },
-        },
-    },
-});
 
 const App = () => {
   const endpoint = useMemo(() => clusterApiUrl(network), []);
@@ -83,7 +59,7 @@ const App = () => {
   );
 
   return (
-      <ThemeProvider theme={theme}>
+     
         <ConnectionProvider endpoint={endpoint}>
           <WalletProvider wallets={wallets} autoConnect={true}>
             <WalletDialogProvider>
@@ -98,7 +74,7 @@ const App = () => {
             </WalletDialogProvider>
           </WalletProvider>
         </ConnectionProvider>
-      </ThemeProvider>
+  
   );
 };
 
