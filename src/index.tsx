@@ -6,8 +6,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppMint from './AppMint';
 
-
-
+const domContainers = document.querySelector('#appp');
+ReactDOM.render(<App></App>, domContainers);
 const domContainer = document.querySelector('#appMint');
 ReactDOM.render(<AppMint></AppMint>, domContainer);
 // If you want to start measuring performance in your app, pass a function
