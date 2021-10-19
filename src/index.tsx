@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 const domContainer = document.querySelector('#app');
 ReactDOM.render(<App></App>, domContainer);
 const domContainer2 = document.querySelector('#app2');
-ReactDOM.render(<App></App>, domContainer);
+ReactDOM.render(<App></App>, domContainer2);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
