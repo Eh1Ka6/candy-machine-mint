@@ -7,7 +7,7 @@ import Alert from "@material-ui/lab/Alert";
 import * as anchor from "@project-serum/anchor";
 
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
-
+import { Portal } from 'react-portal';
 import { useAnchorWallet } from "@solana/wallet-adapter-react";
 import { WalletDialogButton } from "@solana/wallet-adapter-material-ui";
 
@@ -55,6 +55,10 @@ const Home = (props: HomeProps) => {
   const [startDate, setStartDate] = useState(new Date(props.startDate));
 
   const wallet = useAnchorWallet();
+  if (wallet)
+  {
+    const event = new Event('build');
+  }
   const [candyMachine, setCandyMachine] = useState<CandyMachine>();
 
   const refreshCandyMachineState = () => {
@@ -171,7 +175,30 @@ const Home = (props: HomeProps) => {
       <MintContainer>
         
           <ConnectButton>Connect Wallet</ConnectButton>
-       
+        <Portal node={document && document.getElementById('appMint')}>
+          <MintButton 
+            disabled={isSoldOut || isMinting || !isActive}
+            onClick={onMint}
+            variant="contained"
+          >
+            {isSoldOut ? (
+              "SOLD OUT"
+            ) : isActive ? (
+              isMinting ? (
+                <CircularProgress />
+              ) : (
+                "Get it Now"
+              )
+            ) : (
+              <Countdown
+                date={startDate}
+                onMount={({ completed }) => completed && setIsActive(true)}
+                onComplete={() => setIsActive(true)}
+                renderer={renderCounter}
+              />
+            )}
+          </MintButton>
+          </Portal>
       </MintContainer>
 
       <Snackbar
