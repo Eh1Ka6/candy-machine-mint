@@ -173,38 +173,42 @@ const Home = (props: HomeProps) => {
   return (
     <main>
       <Portal node={document && document.getElementById('data')}>
-      <div className="form-group row">
+      {wallet && (<div className="form-group row">
           <label htmlFor="wallet" className="col-sm-2 col-form-label">Wallet Id</label>
           <div className="col-sm-10">
-            {wallet && (
+            
                 <p> {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
-            )}
+           
            </div>
-        </div>
-      <div className="form-group row">
+        </div> )}
+        {wallet && <div className="form-group row">
           <label htmlFor="Balance" className="col-sm-2 col-form-label">Balance:</label>
           <div className="col-sm-10">
-              {wallet && <p id="Balance"> {(balance || 0).toLocaleString()} SOL</p>}
+            <p id="Balance"> {(balance || 0).toLocaleString()} SOL</p>
            </div>
         </div>
-      <div className="form-group row">
+      }
+      {wallet &&  <div className="form-group row">
           <label htmlFor="Total" className="col-sm-2 col-form-label">Total Available:</label>
           <div className="col-sm-10">
-          {wallet && <p id="Total"> {itemsAvailable}</p>}
+         <p id="Total"> {itemsAvailable}</p>
            </div>
         </div>
-      <div className="form-group row">
+        }
+       {wallet && <div className="form-group row">
           <label htmlFor="Redeemed" className="col-sm-2 col-form-label">Redeemed:</label>
           <div className="col-sm-10">
-          {wallet && <span id="Redeemed"> {itemsRedeemed}</span>}
+        <span id="Redeemed"> {itemsRedeemed}</span>
            </div>
         </div>
-      <div className="form-group row">
+      }
+      {wallet &&  <div className="form-group row">
           <label htmlFor="Remaining" className="col-sm-2 col-form-label">Remaining:</label>
           <div className="col-sm-10">
-          {wallet && <p id="Remaining"> {itemsRemaining}</p>}
+         <p id="Remaining" > {itemsRemaining}</p>
            </div>
         </div>     
+        }
     </Portal>
       <MintContainer>
         
