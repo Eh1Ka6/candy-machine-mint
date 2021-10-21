@@ -196,7 +196,7 @@ const Home = (props: HomeProps) => {
       <div className="form-group row">
           <label htmlFor="Redeemed" className="col-sm-2 col-form-label">Redeemed:</label>
           <div className="col-sm-10">
-          {wallet && <p>Redeemed: {itemsRedeemed}</p>}
+          {wallet && <span>Redeemed: {itemsRedeemed}</span>}
            </div>
         </div>
       <div className="form-group row">
