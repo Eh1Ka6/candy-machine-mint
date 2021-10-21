@@ -177,7 +177,7 @@ const Home = (props: HomeProps) => {
           <label htmlFor="wallet" className="col-sm-2 col-form-label">Wallet Id</label>
           <div className="col-sm-10">
             {wallet && (
-                <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
+                <p> {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
             )}
            </div>
         </div>
@@ -196,13 +196,13 @@ const Home = (props: HomeProps) => {
       <div className="form-group row">
           <label htmlFor="Redeemed" className="col-sm-2 col-form-label">Redeemed:</label>
           <div className="col-sm-10">
-          {wallet && <span>Redeemed: {itemsRedeemed}</span>}
+          {wallet && <span> {itemsRedeemed}</span>}
            </div>
         </div>
       <div className="form-group row">
           <label htmlFor="Remaining" className="col-sm-2 col-form-label">Remaining:</label>
           <div className="col-sm-10">
-          {wallet && <p>Remaining: {itemsRemaining}</p>}
+          {wallet && <p> {itemsRemaining}</p>}
            </div>
         </div>     
     </Portal>
