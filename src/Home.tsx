@@ -190,7 +190,7 @@ const Home = (props: HomeProps) => {
       <div className="form-group row">
           <label htmlFor="Total" className="col-sm-2 col-form-label">Total Available:</label>
           <div className="col-sm-10">
-          {wallet && <p> {itemsAvailable}</p>}
+          {wallet && <p id="Total"> {itemsAvailable}</p>}
            </div>
         </div>
       <div className="form-group row">
