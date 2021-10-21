@@ -27,6 +27,7 @@ const MintContainer = styled.div``; // add your styles here
 
 const MintButton = styled(Button)``; // add your styles here
 
+
 export interface HomeProps {
   candyMachineId: anchor.web3.PublicKey;
   config: anchor.web3.PublicKey;
@@ -172,17 +173,38 @@ const Home = (props: HomeProps) => {
   return (
     <main>
       <Portal node={document && document.getElementById('data')}>
-     {wallet && (
-        <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
-      )}
-
-      {wallet && <p>Balance: {(balance || 0).toLocaleString()} SOL</p>}
-
-      {wallet && <p>Total Available: {itemsAvailable}</p>}
-
-      {wallet && <p>Redeemed: {itemsRedeemed}</p>}
-
-      {wallet && <p>Remaining: {itemsRemaining}</p>}
+      <div className="form-group row">
+          <label htmlFor="wallet" className="col-sm-2 col-form-label">Wallet Id</label>
+          <div className="col-sm-10">
+            {wallet && (
+                <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
+            )}
+           </div>
+        </div>
+      <div className="form-group row">
+          <label htmlFor="Balance" className="col-sm-2 col-form-label">Balance:</label>
+          <div className="col-sm-10">
+              {wallet && <p> {(balance || 0).toLocaleString()} SOL</p>}
+           </div>
+        </div>
+      <div className="form-group row">
+          <label htmlFor="Total" className="col-sm-2 col-form-label">Total Available:</label>
+          <div className="col-sm-10">
+          {wallet && <p> {itemsAvailable}</p>}
+           </div>
+        </div>
+      <div className="form-group row">
+          <label htmlFor="Redeemed" className="col-sm-2 col-form-label">Redeemed:</label>
+          <div className="col-sm-10">
+          {wallet && <p>Redeemed: {itemsRedeemed}</p>}
+           </div>
+        </div>
+      <div className="form-group row">
+          <label htmlFor="Remaining" className="col-sm-2 col-form-label">Remaining:</label>
+          <div className="col-sm-10">
+          {wallet && <p>Remaining: {itemsRemaining}</p>}
+           </div>
+        </div>     
     </Portal>
       <MintContainer>
         
