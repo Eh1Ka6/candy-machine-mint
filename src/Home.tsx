@@ -184,7 +184,7 @@ const Home = (props: HomeProps) => {
       <div className="form-group row">
           <label htmlFor="Balance" className="col-sm-2 col-form-label">Balance:</label>
           <div className="col-sm-10">
-              {wallet && <p> {(balance || 0).toLocaleString()} SOL</p>}
+              {wallet && <p id="Balance"> {(balance || 0).toLocaleString()} SOL</p>}
            </div>
         </div>
       <div className="form-group row">
@@ -196,13 +196,13 @@ const Home = (props: HomeProps) => {
       <div className="form-group row">
           <label htmlFor="Redeemed" className="col-sm-2 col-form-label">Redeemed:</label>
           <div className="col-sm-10">
-          {wallet && <span> {itemsRedeemed}</span>}
+          {wallet && <span id="Redeemed"> {itemsRedeemed}</span>}
            </div>
         </div>
       <div className="form-group row">
           <label htmlFor="Remaining" className="col-sm-2 col-form-label">Remaining:</label>
           <div className="col-sm-10">
-          {wallet && <p> {itemsRemaining}</p>}
+          {wallet && <p id="Remaining"> {itemsRemaining}</p>}
            </div>
         </div>     
     </Portal>
